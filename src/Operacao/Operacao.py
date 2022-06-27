@@ -3,7 +3,7 @@ from datetime import date
 
 class Operacao:
     def __init__(self, cpf: str, codigo: int):
-        self._data = date
+        self._data = date.today()
         self._cpf = cpf
         self._codigo = codigo
         self._ativo = False

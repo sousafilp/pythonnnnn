@@ -6,10 +6,10 @@ class Filme:
         self._codigo = codigo
         self._titulo = titulo
         self._genero = []
-        self._data_lancamento = date
-        self._diretor = ''
+        self._data_lancamento = date.today()
+        self._diretor = str
         self._atores = []
-        self._sinopse = ''
+        self._sinopse = str
         self.produtores = []
         self.preco_locacao = float()
         self.numero_copias = int()

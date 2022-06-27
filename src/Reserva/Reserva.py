@@ -1,4 +1,4 @@
-from src.Operacao import Operacao
+from src.Operacao.Operacao import Operacao
 
 
 class Reserva(Operacao):
